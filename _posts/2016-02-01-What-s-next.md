@@ -1,12 +1,9 @@
 ---
 layout: post
-title:  "What’s next?"
-tags: [life]
-excerpt_separator: <!--more-->
+title: What's next?
+description: Sunday was my last day as a Senior Research Associate in the [Computer Laboratory](http://www.cl.cam.ac.uk/) at the University of Cambridge.
+categories: [life]
 ---
-
-Sunday was my last day as a Senior Research Associate in the [Computer Laboratory](http://www.cl.cam.ac.uk/) at the University of Cambridge.
-<!--more-->
 
 <img data-width="1296" data-height="592" src="https://cdn-images-1.medium.com/max/800/1*hLvwb41J8CwGg86KjHehig.png">
 

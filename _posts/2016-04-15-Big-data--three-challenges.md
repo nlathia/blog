@@ -1,13 +1,10 @@
 ---
 layout: post
-title:  "Big data: three challenges"
-tags: [opinion]
-excerpt_separator: <!--more-->
+title: "Big data: three challenges"
+categories: [opinion]
 ---
 
 I was recently asked to put together a short blog post as part of this week’s [Data-Driven Economy Week](http://www.techuk.org/insights/news/item/8256-welcome-to-techuk-s-data-driven-economy-week), which is being run by [techUK](http://www.techuk.org) and is “exploring the value and importance of data to organisations of all size and sector in the UK” (#datamatters).
-
-<!--more-->
 
 I took the opportunity to jot down some quick thoughts, which largely reflect things that I have been reading from various thought-leaders around the world in the ongoing debate around ‘big data.’ The original post is [here](https://www.techuk.org/insights/opinions/item/8306-dr-neal-lathia-big-data-three-challenges) and copied below.
 

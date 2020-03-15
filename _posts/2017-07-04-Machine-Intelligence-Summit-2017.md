@@ -1,12 +1,9 @@
 ---
 layout: post
-title:  "Machine Intelligence Summit 2017"
-tags: [conference]
-excerpt_separator: <!--more-->
+title: Machine Intelligence Summit 2017
+description: Overview of #reworkMI in Amsterdam.
+categories: [conference]
 ---
-
-Overview of #reworkMI in Amsterdam.
-<!--more-->
 
 Last week, I was at the [4th Machine Intelligence Summit](https://www.re-work.co/events/machine-intelligence-summit-amsterdam-2017) #reworkMI in Amsterdam. The mission of the event is:
 

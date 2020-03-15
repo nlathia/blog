@@ -1,12 +1,9 @@
 ---
 layout: post
-title: "Intuition in machine learning"
-tags: [opinion, machine-learning]
-excerpt_separator: <!--more-->
+title: Intuition in machine learning
+description: Which perspective of an algorithm makes more sense?
+categories: [opinion, machine-learning]
 ---
-
-Which perspective of an algorithm makes more sense?
-<!--more-->
 
 I’ve just finished Week 5 of the [Coursera/Stanford Machine Learning](https://www.coursera.org/learn/machine-learning) course. It has been a mixture of refreshing, relearning, and new for me. I had already been using, building, and researching/evaluating machine learning algorithms for a number of years. I therefore felt like I ‘knew’ a lot of the concepts, particularly the introductory ones. I put ‘knew’ in quotes, however, since I’ve always had a feeling that I don’t _know_ them _well enough_, no matter how many times I’ve used them.
 

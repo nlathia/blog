@@ -1,12 +1,9 @@
 ---
 layout: post
-title:  "A review of the ACM RecSys 2017 keynote on the economics of information"
-tags: [conference]
-excerpt_separator: <!--more-->
+title: A review of the ACM RecSys 2017 keynote on the economics of information
+description: Four areas of research related to how we interact with information, and how that links to recommender systems.
+categories: [conference]
 ---
-
-Four areas of research related to how we interact with information, and how that links to recommender systems.
-<!--more-->
 
 The first keynote at the 2017 [ACM Conference on Recommender Systems](https://recsys.acm.org/recsys17/keynotes/#content-tab-1-0-tab) (RecSys) was by [Prof. George Loewenstein](https://www.cmu.edu/dietrich/sds/people/faculty/george-loewenstein.html).
 

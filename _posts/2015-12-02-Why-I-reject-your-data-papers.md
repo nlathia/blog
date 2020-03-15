@@ -1,13 +1,9 @@
 ---
 layout: post
-title:  "Why I reject your data papers"
-tags: [opinion, research]
-excerpt_separator: <!--more-->
+title: Why I reject your data papers
+description: I believe that research papers are innocent (“accept”) until proven guilty (“reject”). Here are some crimes that move your data mining paper into the guilty camp quite quickly, and make me feel sad! 
+categories: [opinion, research]
 ---
-
-I believe that research papers are innocent (“accept”) until proven guilty (“reject”). Here are some crimes that move your data mining paper into the guilty camp quite quickly, and make me feel sad! 
-
-<!--more-->
 
 *No baseline.* You present results of your wonderful new machine learning algorithm compared only to variations of itself (e.g., results with different parameters). No baseline or alternative approach results presented. Quantitative results on data only make relative (not absolute) sense: If your algorithmic magic is 99% accurate, is a simple linear regression baseline 98% or 58% accurate? There’s a huge difference here.
 

@@ -1,36 +1,12 @@
 ---
 layout: post
-title:  "When is a neural net too big for production?"
-tags: [opinion, monzo]
-excerpt_separator: <!--more-->
+title: When is a neural net too big for production?
+description: Here are some thoughts on the recent discussions around NLP transformer models being too big to put into production, and a dive into how we have shipped them at Monzo using the HuggingFace library.
+categories: [opinion, monzo]
 ---
-
-Here are some thoughts on the recent discussions around NLP transformer models being too big to put into production, and a dive into how we have shipped them at Monzo using the [HuggingFace library](https://huggingface.co/).
-<!--more-->
-
-<hr />
 
 ### 💬 Background
 Over the last couple of years, there have been a ton of exciting developments in natural language processing (NLP). In case you haven't been working in this area, here's the crash course: the development of [deep pre-trained language models](http://ruder.io/nlp-imagenet/) has taken the field by storm. In particular, [transformer architectures](https://arxiv.org/abs/1706.03762) are everywhere, and were popularised by Google's release of the [**B**idirectional **E**ncoder **R**epresentations from **T**ransformers](https://arxiv.org/abs/1810.04805) (BERT) model, OpenAI's release of the [GPT(-2) models](https://openai.com/blog/better-language-models/), and other similar releases.
-
-
-```python
-def foo_bar_baz(variable_a, variable_b, variable_c) -> dict:
-	return
-```
-
-And
-<div class="scrollblock">
-<div class="language-python highlighter-rouge">
-	<div class="highlight">
-		<pre class="highlight">
-				<code>
-				<span class="k">def</span> <span class="nf">foo_bar_baz</span><span class="p">(</span><span class="n">variable_a</span><span class="p">,</span> <span class="n">variable_b</span><span class="p">,</span> <span class="n">variable_c</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span><span class="k">return</span>
-			</code>
-		</pre>
-	</div>
-</div>
-</div>
 
 Various research teams are continuing to compete to train better language models; if you look at the [General Language Understanding Evaluation (GLUE)](https://gluebenchmark.com/leaderboard) benchmark leaderboard, you'll find a host of other approaches (many of them also named BERT: ALBERT, RoBERTa, etc.). The overarching trend in this research has been to train **bigger** models with **more data** - growing to the extent that researchers [have investigated](https://arxiv.org/abs/1906.02243) the costly carbon footprint of training these large networks.
 

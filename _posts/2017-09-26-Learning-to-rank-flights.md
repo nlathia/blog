@@ -1,12 +1,9 @@
 ---
 layout: post
-title: "Learning to rank for flight itinerary search"
-tags: [machine-learning, skyscanner]
-excerpt_separator: <!--more-->
+title: Learning to rank for flight itinerary search
+description: Searching for the perfect flight is one of the core activities for Skyscanner app users. Similarly, thinking about ways to help our users book the ideal trip is one of the problems that we find ourselves discussing the most. 
+categories: [machine-learning, skyscanner]
 ---
-
-Searching for the perfect flight is one of the core activities for Skyscanner app users. Similarly, thinking about ways to help our users book the ideal trip is one of the problems that we find ourselves discussing the most. 
-<!--more-->
 
 Recently, at the Workshop on Recommenders in Tourism (part of ACM RecSys 2017), I had the opportunity to give a keynote where I shared some of our recent experiments in this domain — and particularly, on how we’re applying machine learning within this problem. In this post, I’ll expand on some of the thoughts that I shared there.
 

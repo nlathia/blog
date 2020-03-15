@@ -1,14 +1,10 @@
 ---
 layout: post
-title:  "Share data or perish"
-tags: [data]
-excerpt_separator: <!--more-->
+title: Share data or perish
+categories: [opinion]
 ---
 
-The [International Committee of Medical Journal Editors](http://www.icmje.org/) is [seeking feedback](https://forms.acponline.org/webform/comments-icmje%E2%80%99s-proposals-sharing-clinical-trial-data) on their proposal ([pdf](http://icmje.org/news-and-editorials/M15-2928-PAP.pdf)) to require authors to share the deidentified individual-patient data, or IPD, that was used to generate research results “as a condition for consideration for publication.” 
-<!--more-->
-
-The motivation behind this is to foster a culture of reproducibility:
+The [International Committee of Medical Journal Editors](http://www.icmje.org/) is [seeking feedback](https://forms.acponline.org/webform/comments-icmje%E2%80%99s-proposals-sharing-clinical-trial-data) on their proposal ([pdf](http://icmje.org/news-and-editorials/M15-2928-PAP.pdf)) to require authors to share the deidentified individual-patient data, or IPD, that was used to generate research results “as a condition for consideration for publication.” The motivation behind this is to foster a culture of reproducibility:
 
 > “The data underlying the results are defined as the IPD required to re-produce the article’s findings, including necessary metadata.”
 

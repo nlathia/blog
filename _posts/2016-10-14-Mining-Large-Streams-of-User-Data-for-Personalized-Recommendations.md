@@ -1,12 +1,9 @@
 ---
 layout: post
-title:  "Mining large streams of user data for personalized recommendations"
-tags: [recsys, paper]
-excerpt_separator: <!--more-->
+title: Mining large streams of user data for personalized recommendations
+description: Lessons from Investing $1M in Machine Learning for Recommendation.
+categories: [recsys, paper]
 ---
-
-Lessons from Investing $1M in Machine Learning for Recommendation.
-<!--more-->
 
 Data Scientists across Skyscanner have started meeting every fortnight to discuss research papers that tackle similar problems to those that we face within Skyscanner. The [2nd paper](http://www.kdd.org/exploration_files/V14-02-05-Amatriain.pdf) we read was: “Mining Large Streams of User Data for Personalized Recommendations” (hi Xavier!). Just like the last post, we’re we’re also writing up a brief, non-technical overview the problems/opportunities we discussed.
 

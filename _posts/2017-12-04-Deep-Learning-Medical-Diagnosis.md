@@ -1,12 +1,9 @@
 ---
 layout: post
-title: "Deep learning & medical diagnosis"
-tags: [machine-learning, health]
-excerpt_separator: <!--more-->
+title: Deep learning & medical diagnosis
+description: A growing list of areas where machine learning is being applied for diagnosis based on medical imaging.
+categories: [machine-learning, health]
 ---
-
-A growing list of areas where machine learning is being applied for diagnosis based on medical imaging.
-<!--more-->
 
 Over the last few months, there have been a number of announcements of research findings that claim that deep learning has been applied to, and often times immediately outperforms doctors in, a particular area of diagnosis.
 

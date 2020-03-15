@@ -1,12 +1,9 @@
 ---
 layout: post
-title:  "Top-N tips for talking with non-data scientsts"
-tags: [opinion]
-excerpt_separator: <!--more-->
+title: Top-N tips for talking with non-data scientsts
+description: Cross-disciplinary work is hard, until you’re speaking the same language.
+categories: [opinion]
 ---
-
-Cross-disciplinary work is hard, until you’re speaking the same language.
-<!--more-->
 
 If, like me, you’re a data scientist in a large startup, then you probably have colleagues who work on things like ‘product,’ ‘growth,’ ‘design,’ or ‘user experience.’ Many of them may not come from a quantitative background — but you’re still likely to find yourself in meetings where you need to find a way to work with them to build great things. In fact, you’re probably _not_ going to build great things unless you are working with them.
 

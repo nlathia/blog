@@ -1,13 +1,10 @@
 ---
 layout: post
-title:  "mHealth: evidence vs. agility"
-tags: [opinion, research]
-excerpt_separator: <!--more-->
+title: "mHealth: evidence vs. agility"
+categories: [opinion, research]
 ---
 
-
 While mHealth apps are [flooding the market](http://mhealtheconomics.com/largest-global-study-on-mhealth-released-there-are-more-than-165000-mhealth-apps-today/), the majority of apps that are currently available [lack scientific evidence about their efficacy](http://www.jmir.org/2013/11/e247/). I have found that this point isn’t debated as much as it should: in research settings, it is taken for granted _as a problem_.
-<!--more-->
 
 Why should this be debated more? I’ve created two perspectives:
 

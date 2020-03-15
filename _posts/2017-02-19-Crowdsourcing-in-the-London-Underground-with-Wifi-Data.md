@@ -1,12 +1,9 @@
 ---
 layout: post
-title: "Crowdsourcing in the London underground with wifi data"
-tags: [research]
-excerpt_separator: <!--more-->
+title: Crowdsourcing in the London underground with wifi data
+description: The story behind Tube Star, and future applications for data in transport networks.
+categories: [research]
 ---
-
-The story behind Tube Star, and future applications for data in transport networks.
-<!--more-->
 
 In November 2016, [Transport for London](https://medium.com/u/b3a1ef9bf0a5) (TfL) announced a 4-week trial where they would collect wifi connection data “in order to better understand how London Underground passengers move through stations and interchange between lines.”
 

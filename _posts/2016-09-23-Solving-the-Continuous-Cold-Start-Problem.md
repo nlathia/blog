@@ -1,13 +1,9 @@
 ---
 layout: post
-title:  "Solving the continuous cold start problem"
-tags: [recsys, paper]
-excerpt_separator: <!--more-->
+title: Solving the continuous cold start problem
+description: A review of a paper by Kiseleva, Tuzhilin, Kamps, Mueller, Bernardi, Davis, Kovacek, Einarsen, Hiemstra.
+categories: [recsys, paper]
 ---
-
-A review of a paper by Kiseleva, Tuzhilin, Kamps, Mueller, Bernardi, Davis, Kovacek, Einarsen, Hiemstra.
-
-<!--more-->
 
 ### Background
 Data Scientists across Skyscanner have started meeting every fortnight to discuss research papers that tackle similar problems to those that we face within Skyscanner. We kicked off in late August with [this paper](https://arxiv.org/abs/1607.07904) from Booking.com and NYU: “Solving the Continuous Cold Start Problem in E-commerce Recommendations”. As part of the reading group, we’re also writing up a brief, non-technical overview the problems/opportunities we discussed.

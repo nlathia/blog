@@ -1,14 +1,11 @@
 ---
 layout: post
-title: "Using data to build a better help screen"
-tags: [monzo, data]
-excerpt_separator: <!--more-->
+title: Using data to build a better help screen
+description: At Monzo, we use data to help our customers find their own answers faster. 
+categories: [monzo, data]
 ---
 
-At Monzo, we use data to help our customers find their own answers faster. Originally published on [monzo.com](https://monzo.com/blog/2018/08/01/data-help/).
-
-<!--more-->
-<hr />
+Originally published on [monzo.com](https://monzo.com/blog/2018/08/01/data-help/). 
 
 Our customer support team are always on hand if you need to chat with a human, but that isn’t the only way to find answers: the help screen now has over 400 pages that answer common questions, from activating your card to travelling abroad.
 

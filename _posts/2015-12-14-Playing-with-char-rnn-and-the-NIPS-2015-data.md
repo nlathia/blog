@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Playing with char-rnn and the NIPS 2015 data"
-tags: [data, tools]
-excerpt_separator: <!--more-->
+title: Playing with char-rnn and the NIPS 2015 data
+categories: [data, tools]
 ---
 
 Since [samim](https://medium.com/u/f3c8148878e1) published all those awesome and fun posts on using a Recurrent Neural Network to generate text (see: [Zen-RNN](https://medium.com/@samim/zen-rrnn-on-meditation-machines-bbeb92aa62d3#.vn9ox6zb8), [TED-RNN](https://medium.com/@samim/ted-rnn-machine-generated-ted-talks-3dd682b894c0), [Obama-RNN](https://medium.com/@samim/obama-rnn-machine-generated-political-speeches-c8abd18a2ea0)), I’ve been looking for an opportunity to try the [char-nn](https://github.com/karpathy/char-rnn) library myself.
-<!--more-->
 
 An opportunity came up after all of the papers at this year’s Neural Information Processing Systems Conference ([NIPS](https://nips.cc/) 2015) appeared online. What is more suitable to play around with* an RNN than a bunch of papers that talk a lot about RNNs?
 

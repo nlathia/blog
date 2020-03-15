@@ -1,12 +1,9 @@
 ---
 layout: post
-title:  "What do we mean when we talk about data-driven products?"
-tags: [opinion]
-excerpt_separator: <!--more-->
+title: What do we mean when we talk about data-driven products?
+description: "Hint: it’s not databases."
+categories: [opinion]
 ---
-
-Hint: it’s not databases.
-<!--more-->
 
 I’ve recently had a number of conversations about what it means to design and build data-driven products. They all started on a similar premise: data-driven is the ‘right’ way of doing things, it’s the future, etc., etc.; so let’s assume we’re all on the same page of the hype cycle and, instead, go a little bit deeper: “what do we mean by _data-driven_?”
 

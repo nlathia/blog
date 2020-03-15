@@ -1,13 +1,9 @@
 ---
 layout: post
-title: "Industry stories about machine learning"
-tags: [conference]
-excerpt_separator: <!--more-->
+title: Industry stories about machine learning
+description: My notes from the PAPIs.io 2018 conference in London.
+categories: [conference]
 ---
-
-My notes from the PAPIs.io 2018 conference in London.
-<!--more-->
-
 
 Last week, I went to the [PAPIs.io Europe 2018](https://www.papis.io/europe-2018) conference, which was held in Canary Wharf Tower in London. The conference describes itself as a “series of international conferences dedicated to real-world Machine Learning applications, and the innovations, techniques and tools that power them” (and, from what I gather, the name _papis_ comes from “Predictive APIs”). I went down on the Thursday, the day that was dedicated to “Industry and Startups,” and took some notes on what I saw. Here’s a quick summary!
 

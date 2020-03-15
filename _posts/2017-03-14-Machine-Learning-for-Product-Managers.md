@@ -1,12 +1,9 @@
 ---
 layout: post
-title: "Machine learning for product managers"
-tags: [opinion, machine-learning]
-excerpt_separator: <!--more-->
+title: Machine learning for product managers
+description: A product-centric overview of machine learning.
+categories: [opinion, machine-learning]
 ---
-
-A product-centric overview of machine learning.
-<!--more-->
 
 It’s now becoming common for me to hear that product owners/managers, technical managers and designers are turning to popular online courses to learn about machine learning. I always encourage it — in fact, I did one of those courses myself (and blogged about it). However, it’s not always clear how much benefit someone whose goal is to design, support, manage, or plan for products that use machine learning will get from doing an online course in ML. These courses throw you into the deep end, asking you to start programming classifiers, when many non-technical team mates are only looking for _sufficient knowledge_ to be able to work in teams that are creating an ML-driven product. It’s a bit like wanting to drive a car, and ‘therefore’ signing up to a course on combustion engines — probably a little bit too detailed for practical day-to-day driving!
 

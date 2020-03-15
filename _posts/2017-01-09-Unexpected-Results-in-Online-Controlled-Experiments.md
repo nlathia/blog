@@ -1,12 +1,9 @@
 ---
 layout: post
-title:  "Unexpected results in online controlled experiments"
-tags: [paper]
-excerpt_separator: <!--more-->
+title: Unexpected results in online controlled experiments
+description: “Getting numbers is easy, getting numbers you can trust is quite difficult.”
+categories: [paper]
 ---
-
-“Getting numbers is easy, getting numbers you can trust is quite difficult.”
-<!--more-->
 
 While discussing some A/B tests that we are running, [Colin McFarland](https://medium.com/u/e0e17553ea9f) recommended “Unexpected Results in Online Controlled Experiments” by Kohavi and Longbotham, from SIG KDD Explorations 2010. Following on from my other research summaries, here’s a quick overview of the paper.
 

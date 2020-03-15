@@ -1,12 +1,9 @@
 ---
 layout: post
-title: "Five lessons from building machine learning systems"
-tags: [opinion, machine-learning, skyscanner]
-excerpt_separator: <!--more-->
+title: Five lessons from building machine learning systems
+description: ... to power features in the Skyscanner app! ✈️
+categories: [opinion, machine-learning, skyscanner]
 ---
-
-... to power features in the Skyscanner app! ✈️
-<!--more-->
 
 In January 2017 I left Skyscanner, where I was a Senior Data Scientist. Like I did with a previous post a couple of years ago, I thought I’d summarise my journey by collecting some thoughts and lessons learned from the projects that I was involved in — which all focused on building different machine learning features for the Skyscanner app.
 

@@ -1,12 +1,9 @@
 ---
 layout: post
-title:  "Archetypes of online conversations"
-tags: [opinion]
-excerpt_separator: <!--more-->
+title: Archetypes of online conversations
+description: Smart messaging is only one paradigm.
+categories: [opinion]
 ---
-
-Smart messaging is only one paradigm.
-<!--more-->
 
 I’ve been reading a lot about the imminent age of smart messaging and virtual assistants. Some great reads, offering a variety of perspectives (from business through to design and more) include “[2016 will be the year of conversational commerce](https://medium.com/chris-messina/2016-will-be-the-year-of-conversational-commerce-1586e85e3991#.o3p34j2nv),” “[Clippy’s revenge — smart messaging as platform shift](https://medium.com/@saranormous/clippy-s-revenge-39f7387f9aab#.pqw7l3jnz),” “[No-UI is the new UI](https://medium.com/swlh/no-ui-is-the-new-ui-ab3f7ecec6b3#.zllf8ikga),” and “[A Question of Agency](https://medium.com/@dtunkelang/a-question-of-agency-e4495b7ad11#.segfpe36o).”
 

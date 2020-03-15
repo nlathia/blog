@@ -1,13 +1,9 @@
 ---
 layout: post
-title:  "Neural approaches to conversational AI"
-tags: [paper, chatbot]
-excerpt_separator: <!--more-->
+title: Neural approaches to conversational AI
+description: This is a a six chapter review! It alternates between giving overview-level information for specific areas of conversational AI, and diving into details of deep or reinforcement-based learning algorithms as applied to conversational settings.
+categories: [paper]
 ---
-
-This is a a six chapter review! It alternates between giving overview-level information for specific areas of conversational AI, and diving into details of deep or reinforcement-based learning algorithms as applied to conversational settings.
-
-<!--more-->
 
 Available: [https://arxiv.org/pdf/1809.08267.pdf](https://arxiv.org/pdf/1809.08267.pdf)
 

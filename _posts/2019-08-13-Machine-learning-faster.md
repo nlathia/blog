@@ -1,14 +1,9 @@
 ---
 layout: post
-title:  "Machine learning, faster"
-tags: [opinion, monzo]
-excerpt_separator: <!--more-->
+title: Machine learning, faster
+description: I recently gave a couple of conference presentations about how we are thinking about _speed_ when developing machine learning systems at Monzo. This post covers some of the background to the points I was making in my talks, as well as what we're doing in the Monzo machine learning team to speed up our own work.
+categories: [opinion, monzo]
 ---
-
-I recently gave a couple of conference presentations about how we are thinking about _speed_ when developing machine learning systems at Monzo. This post covers some of the background to the points I was making in my talks, as well as what we're doing in the Monzo machine learning team to speed up our own work.
-<!--more-->
-
-<hr />
 
 Speed is not a word that is regularly associated with machine learning teams. When we talk and write about accomplishments in machine learning, there is often a focus on the problem, the algorithmic approach, and the results - but no mention of the time that it took to get there.
 
