@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Big data: three challenges"
+tags: [opinion]
+excerpt_separator: <!--more-->
+---
+
+I was recently asked to put together a short blog post as part of this week’s [Data-Driven Economy Week](http://www.techuk.org/insights/news/item/8256-welcome-to-techuk-s-data-driven-economy-week), which is being run by [techUK](http://www.techuk.org) and is “exploring the value and importance of data to organisations of all size and sector in the UK” (#datamatters).
+
+<!--more-->
+
+I took the opportunity to jot down some quick thoughts, which largely reflect things that I have been reading from various thought-leaders around the world in the ongoing debate around ‘big data.’ The original post is [here](https://www.techuk.org/insights/opinions/item/8306-dr-neal-lathia-big-data-three-challenges) and copied below.
+
+‘Big data’ is a wonderfully ambiguous term. Over the last few years, it has evolved to imply business potential, research success, economic growth, and pending opportunity. Big data is forecast to get bigger: the data that we thought of as ‘big’ a few years ago pales in comparison to the amount available today — particularly as we transition into a world of sensors and Internet-connected things. It has now been linked across a vast range of industries, from journalism to healthcare, transport, and construction. Big data has spawned an entire family of data types: ‘[small data](http://www.theguardian.com/news/datablog/2013/apr/25/forget-big-data-small-data-revolution),’ ‘[lifelogging data](http://techcrunch.com/tag/lifelogging/),’ ‘[urban data](http://www.economist.com/news/21566408-cities-will-become-smarter-different-ways-many-people-expected-mining-urban-data),’ and more.
+
+All of this is testament to the growth of data literacy across the UK. As a Computer Scientist, it is relieving to witness these once-niche conversations enter the mainstream. However, I often encounter the opinion that simply having or opening (big) data is, in itself, a success. Herein lies one of the biggest challenges of the data movement: data is useless until it is being used to answer the right question and address the right need. Why is this a challenge?
+
+## 1. Data’s value is often serendipitous, not designed
+Many successful data companies are based on a serendipitous discovery of an _alternative_ usage of data. Most notably, hyperlinks were not invented to facilitate web search, but that is where [PageRank](https://en.wikipedia.org/wiki/PageRank) started. The accelerometers that track our activity levels were not built for that purpose; nearly everything that we use smartphones for today is an [unintended consequence](https://www.quora.com/What-will-be-the-most-important-unintended-consequence-of-smartphone-adoption-that-we-haven%E2%80%99t-seen-yet/answer/Neal-Lathia). The London Oyster card was built as a fare-collection system, but my research examined its potential as way to build [personalised transport information systems](http://www.bbc.co.uk/news/uk-england-london-13389363).
+
+Clearly, facilitating the discovery of secondary applications of data is a path toward designing the next wave of data-driven services. The most common question I am approached with is “we have this data: what could we do with it?” Yet, many of the discussions around protecting privacy naturally focus on [scoping how data can be used](https://medium.com/message/what-is-privacy-5ed72c66aa86#.f7y1y1ubu). How can we resolve privacy without debilitating future innovation?
+
+## 2. Data does not exonerate
+There are a number of data-centric projects that have ‘failed’ spectacularly. For example, Microsoft’s AI bot started making [offensive and racist remarks](http://techcrunch.com/2016/03/24/microsoft-silences-its-new-a-i-bot-tay-after-twitter-users-teach-it-racism/) after learning from tweets. It is [not the first](https://medium.com/@dtunkelang/our-ai-children-need-supervision-7c55589f4d0#.qxoua9g01) system to accidentally cause offence: data and algorithms (or, more generally, automation) often blinds us to [implicit biases](http://www.theatlantic.com/technology/archive/2016/04/how-big-data-harms-poor-communities/477423/), and [masks unfairness](https://medium.com/keep-learning-keep-growing/getting-uncomfortable-with-data-7339e27adf6f#.osk4sf54y).
+
+Many of these examples seem to stem from an all-in approach to building a data-driven system, rather than using incremental, iterative experiments to get these systems online. They equally seem to be built without acknowledging that we often do not understand how many digital systems are or will be used. Perhaps the Tay bot’s racism could have been picked up before it had a global audience; perhaps the lessons learned from the [Samaritan suicide-prevention app](http://www.wired.co.uk/news/archive/2014-11/10/samaritans-radar-twitter-app-pulled) could have learned quicker. How can we go beyond data literacy, and instill a culture of experimentation and uncertainty into how we design and build data-driven products?
+
+## 3. Data alone is not sustainable
+A flurry of devices and services — particularly in the [Internet-of-Things](https://medium.com/internet-of-shit/the-internet-of-things-has-a-dirty-little-secret-28bce2d412b2#.873rn3cma) market — are essentially data collection engines, that promise to (one day) become sustainable, perhaps via advertising or some kind of subscription. As a data scientist, I often feel that more importance and effort is being given to designing and building data-collecting things, rather than long-term, enganging, and sustainable services.
+
+In particular, it is interesting to see what happens when services [like this smart home hub](http://www.wired.com/2016/04/nests-hub-shutdown-proves-youre-crazy-buy-internet-things/) are discontinued, and what that may mean for future services that rely on data and cloud systems to operate.
+
+No amount of data is going to replace the creativity we need to see new, sustainable business models emerge —such as [this project](https://www.indiegogo.com/projects/hat-claim-your-data-organise-visualise-control--3#/) that aims to let users control and benefit from their own data — that go beyond turning every screen we see into more advertising space.
+
+## Conclusion
+It is an exciting time to work as a data scientist in the UK: institutions like [techUK](https://www.techuk.org/) demonstrate the UK’s ambitions and enthusiasm to lead when it comes to building the next generation of data-driven services. However, when it comes to big data, we must remember that there is little value in just hoarding it: data’s true value is often unexpected, the services we build must not simply throw data at a problem, and future leaders are likely to be just as creative with their business model as they are with their data wrangling.
