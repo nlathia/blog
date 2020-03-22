@@ -5,18 +5,8 @@ title: Tags
 search_exclude: true
 ---
 
-<h2>Contents</h2>
-
-{% if site.categories.size > 0 %}
-<ul>
-{% for category in site.categories %}
-  {% capture category_name %}{{ category | first }}{% endcapture %}
-  <li><a href="#{{ category_name }}">{{ category_name }}</a></li>
-{% endfor %}
-</ul>
-{% endif %}
-
-{% for category in site.categories %}
+{% assign sorted_categories = site.categories | sort %}
+{% for category in sorted_categories %}
     {% capture category_name %}{{ category | first }}{% endcapture %}
 
     <h3 id ="{{ category_name }}"><i class="fas fa-tags category-tags-icon"></i></i> {{ category_name }}</h3>
