@@ -5,17 +5,6 @@ title: Tags
 search_exclude: true
 ---
 
-<h2>Contents</h2>
-
-{% if site.categories.size > 0 %}
-<ul>
-{% for category in site.categories %}
-  {% capture category_name %}{{ category | first }}{% endcapture %}
-  <li><a href="#{{ category_name }}">{{ category_name }}</a></li>
-{% endfor %}
-</ul>
-{% endif %}
-
 {% for category in site.categories %}
     {% capture category_name %}{{ category | first }}{% endcapture %}
 
