@@ -6,15 +6,13 @@ categories: [data, monzo]
 ---
 
 ### 📊 Context
-It's not uncommon for Data Science workflows to have large chunks of SQL. Maybe you have a sequence of queries that you run every day to produce dashboards, or maybe you have a bunch of queries that spit out features that you feed into machine learning algorithms.
-
-The way I've seen it used most often is in the form of queries that get orchestrated together with something like [Airflow](https://airflow.apache.org/): if you're a Data Scientist, you're bound to have written a `SELECT` statement at _some point_ of your day.
+It's not uncommon for Data Science workflows to have large chunks of SQL. Maybe you have a sequence of queries that you run every day to produce dashboards, or maybe you have a bunch of queries that spit out features that you feed into machine learning algorithms. If you're a Data Scientist, you're bound to have written a `SELECT` statement at _some point_ of your day!
 
 There's an online wiki for programming languages called [progopedia](http://progopedia.com/) which [lists SQL](http://progopedia.com/language/sql/) as "**not** a programming language:" this perfectly characterises everything that is strange about these words that we write, execute, and rely on to get our insights right every single day. SQL doesn't have all the sensible things that _real_ programming languages have to help us feel confident that they are doing what we think they're doing. Primarily, it lacks a straightforward abstraction for "unit" testing.
 
-About a year and half ago, a colleague [Jack](https://uk.linkedin.com/in/jackcook909) and I were wrangling with a query that _had to be right_--we are, after all, working in a regulated industry. The main problem we had was that we could not rely on the input to our query being right and needed to prevent this query from succeeding if anything in it was wrong. We went the entire journey from manually validating entries in our table to automating the detection and reporting of inconsistencies so that we could flag or fix errors that were upstream of our query.
+About a year and half ago, a colleague [Jack](https://uk.linkedin.com/in/jackcook909) and I were wrangling with a query that _had to be right_--we are, after all, working in a regulated industry. We were dealing with a bunch of queries that were orchestrated together with [Airflow](https://airflow.apache.org/).  The main problem we had was that we could not rely on the input to our query being right **and** needed to prevent this query from quietly succeeding if anything in its results was wrong.
 
-This post is a heavily simplified example of what we did. I've called the post "testing SQL the hard way" because we have now abandoned this approach, and replaced it with [dbt](https://www.getdbt.com/).
+We went the entire journey from manually validating entries in our table to automating the detection and reporting of inconsistencies so that we could flag or fix errors that were upstream of our query: this post is a heavily simplified example of what we did. In case you're wondering, I've called the post "testing SQL the hard way" because we have now abandoned this approach (and replaced it with [dbt](https://www.getdbt.com/)). But it had some fun lessons, so here goes!
 
 
 ### 👯‍♂️ A table of users
@@ -34,7 +32,7 @@ WITH account_created_events AS (
 ),
 ```
 
-When users finish some set of actions (e.g., completing their profile), we get another event to tell us that the user has completed their signup. Here's some more mock data, for those same users:
+When users finish some set of actions, we get another event to tell us that the user has completed their signup. Here's some more mock data, for those same users:
 
 ```sql
 signup_completed_events AS (
@@ -91,7 +89,7 @@ And here are the results:
 
 Perfect! This is the ideal analytics table to answer a ton of different basic analytic questions: How many users do we have? How many of them signed up today? How long does it take users, on average, to complete signup?
 
-This is also the type of table that could be extended with tens of columns, each representing unique pieces of information about each user. As long as this table maintains its core structural assumption (one row per user), we'll be good to go.
+This is also the type of table that could be extended with tens (or even hundreds) of columns, each representing unique pieces of information about each user. It is the type of canonical data table that could grow to having tens of contributors and many tens of use cases. As long as this table maintains its core structural assumption (one row per user), we'll be good to go.
 
 How could this go wrong?
 
