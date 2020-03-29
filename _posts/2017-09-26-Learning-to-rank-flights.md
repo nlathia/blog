@@ -51,7 +51,6 @@ In the end, we ran an experiment comparing users who were given recommendations 
 As above, we did not evaluate this by looking at clicks — we were not interested in users clicking on a widget. Instead, we first quantified search effort by looking at how often users would filter/resort/re-search for an itinerary in a single session, both when they received flight recommendations and when they didn’t. In this case, we didn’t find any significant differences.
 
 More broadly, though, we were interested in measuring conversion — how often users would purchase a flight that was recommended by the widget versus purchasing a flight that fell below it, in the ‘traditional’ result list. We found evidence of great promise — much to our surprise, this first ranking model drove more purchases into the widget than the rule-based variant.
-A Glimpse into Future Work
 
 This experiment is one of many; a lot of the process was about laying the foundation so that we can explore the thousands of hypotheses that using machine learning for flight ranking offers — both offline and online.
 
