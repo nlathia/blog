@@ -123,7 +123,7 @@ The final stage was to make something that could use this model to detect the be
 
 At this stage, I had two different components: a PyAudio thing that would record samples and save them to a wav file, and a PyTorch model that would use torchaudio to load data from a file and give it to the model. Instead of figuring out a way for the PyAudio data to go directly to the model, I decided to keep what I already had and use the disk as an intermediary.
 
-Here's how I made this unnecessarily complicated: I decided that it would be unacceptably slow if all of this happened in a single process. So I turned back to an old friend, the [multiprocessing](https://docs.python.org/3/library/multiprocessing.html) library.
+Here's how I made this unnecessarily complicated: I decided that it would be unacceptably slow if all of this happened in a single process. So I turned back to an old friend, the [multiprocessing](https://docs.python.org/3/library/multiprocessing.html) library - and found out how multiprocessing has a neat bug where [Python crashes on macOS](https://bugs.python.org/issue35219); setting some weird flag `export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES` before running it fixed this 🤷‍♂️.
 
 The main process in my pipeline records a sample of audio and (if it is not silent) saves it to a file; it then pops the path to the file onto a queue. On the other side, a classifier process reads from that queue and loads up and classifies any file that is popped onto it.
 
