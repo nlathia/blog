@@ -129,7 +129,19 @@ The main process in my pipeline records a sample of audio and (if it is not sile
 
 What does it do if it detects a beep? I hunted around for different options here. One of the first options I thought of was to [send myself an email](https://realpython.com/python-send-email/); the problem is that I've turned off gmail notifications (and my life has been much better since). I then went down a rabbit hole of options - Signal, WhatsApp, SMS gateways, paid services, and all of that.
 
-I settled on using Telegram, because I stumbled onto a [Medium post](https://medium.com/@ManHay_Hong/how-to-create-a-telegram-bot-and-send-messages-with-python-4cf314d9fa3e) about setting up a bot and sending it a message with Python, and it looked do-able. But, what if the model _was_ wrong? How could I avoid that short walk out to check? I decided that the pipeline should also send me the actual audio that it thought was a beep. Sending a snippet of audio via telegram was not something that looked super straightforward, until I ran into the [Python Telegram Bot](https://github.com/python-telegram-bot/python-telegram-bot) library.
+I settled on using Telegram, because I stumbled onto a [Medium post](https://medium.com/@ManHay_Hong/how-to-create-a-telegram-bot-and-send-messages-with-python-4cf314d9fa3e) about setting up a bot and sending it a message with Python, and it looked do-able. But, what if the model _was_ wrong? How could I avoid that short walk out to check? I decided that the pipeline should also send me the actual audio that it thought was a beep. Sending a snippet of audio via telegram was not something that looked super straightforward, until I ran into the [Python Telegram Bot](https://github.com/python-telegram-bot/python-telegram-bot) library. The main problem I ran into was that this library would only send sound files that were formatted as mp3s. Instead of re-writing everything to always use mp3s, I found an mp3 encoder called [lame](https://formulae.brew.sh/formula/lame) that could be installed via brew. I found that before finding any Python library that I could use directly, so I just called this function from Python:
+
+```python
+def convert_to_mp3(file_path):
+    path_fields = os.path.split(file_path)
+    file_name = path_fields[1].replace(".wav", ".mp3")
+    result_file = os.path.join(path_fields[0], file_name)
+    logger.info(f"🎧  Converting: {file_path} -> {result_file}")
+    command = f"lame --preset standard \"{file_path}\" \"{result_file}\""
+    result = os.system(command)
+    logger.info(f"🎧  Converted to mp3 with result={result}")
+    return result_file
+```
 
 ### 🎉 That's it! ...Or was it?
 
