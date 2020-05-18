@@ -14,6 +14,10 @@ Supervisors: [Prof. Stephen Hailes](http://www0.cs.ucl.ac.uk/staff/s.hailes/), [
 
 ### Research Publications
 
+[The Dark Triad of personality and momentary affective states: an experience sampling study](../papers/pilch_20.pdf)
+
+I. Pilch, N. Lathia, K. Wiesebach. In Current Issues in Personality Psychology. Volume 8(1), 2020.
+
 [Effectiveness of providing university students with a mindfulness-based intervention to increase resilience to stress: a pragmatic randomised controlled trial.](http://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(17)30231-1/fulltext?elsca1=tlxpr)
 
  J. Galante, G. Dufour, M. Vainre, A. Wagner, J. Stochl, A. Benton, N. Lathia, E. Howarth, P. Jones. In The Lancet Public Health. Accepted November 2017. [[The Guardian](https://www.theguardian.com/lifeandstyle/2017/dec/18/mindfulness-boosts-student-mental-health-during-exams-cambridge-university-study-finds), [The Daily Mail](http://www.dailymail.co.uk/health/article-5193703/Mindfulness-reduces-stress-students-exam-times.html), [Punjab Tribune](http://www.punjabtribune.com/news/49860-mindfulness-can-lower-stress-boost-academic-success.aspx)]
