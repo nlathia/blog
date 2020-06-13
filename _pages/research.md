@@ -4,6 +4,15 @@ title: Research
 permalink: /research/
 ---
 
+### Upcoming Conferences
+
+[14th ACM Conference on Web Search and Data Mining](http://www.wsdm-conference.org/2021/), Program Committee. 2021.
+
+[14th ACM Conference on Recommender Systems](https://recsys.acm.org/recsys20/committees/#content-tab-1-1-tab), Senior Program Committee. 2020.
+
+A full list is on [this archive page](../archive/reviewing.html).
+
+
 ### PhD Research
 
 [Evaluating Collaborative Filtering Over Time](../papers/lathia_ucl_thesis10.pdf)
