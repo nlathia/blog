@@ -14,4 +14,4 @@ permalink: /about/
 
 My PhD focussed on methods for evaluating collaborative filtering algorithms over time. While at UCL, I also spent time as a visiting researcher at [Telefonica Research](http://www.tid.es/), Barcelona and worked as a Data Science consultant.
 
-My work has always focused on applications that use machine learning - this has taken me from recommender systems to urban computing and travel information systems, digital health monitoring, smartphone sensors, and banking. You can read more about my work and research in the [Press & Speaking](http://nlathia.github.io/public.html) and [Publications](http://nlathia.github.io/publications.html) sections. 
+My work has always focused on applications that use machine learning - this has taken me from recommender systems to urban computing and travel information systems, digital health monitoring, smartphone sensors, and banking. You can read more about my work and research in the [Press & Speaking](http://nlathia.github.io/public.html) and [Research](http://nlathia.github.io/blog/research/) sections. 
