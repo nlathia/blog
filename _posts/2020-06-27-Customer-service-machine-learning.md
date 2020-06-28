@@ -116,7 +116,7 @@ In this case, "best match" could be framed in many different ways, such as *simi
 
 This is a **ranking problem:** given a case that has just been assigned to an agent, sort the resolved cases (perhaps with some conditions, e.g.: resolved quickly and with a high customer satisfaction) from "best match" to "worst match" and show the agent the top-3 most similar cases.
 
-**So what?** We believe that this approach could be useful to help agents see how other cases have been solved by others — potentially increasing knowledge discovery and reducing the need to escalate things to #cops-queries.
+**So what?** I believe that this approach could be useful to help agents see how other cases have been solved by others — potentially increasing knowledge discovery and reducing the need to escalate things to other teams.
 
 ### 🏦 Monitoring outcomes as they happen
 
