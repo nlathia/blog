@@ -2,7 +2,7 @@
 layout: post
 title: Customer service is full of machine learning problems
 description: And it's not all about bots!
-categories: [machine-learning]
+categories: [machine-learning, monzo]
 ---
 
 For many folks, the words "customer service" do not bring to mind images of a high-tech problem space - it certainly was not the case for me. The only public discourse that I'd read about customer service and tech is about how bots were promised to replace human agents, but have mostly been disappointing - and limited to giving poor answers to simple questions. 
