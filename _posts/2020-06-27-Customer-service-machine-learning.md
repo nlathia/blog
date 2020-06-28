@@ -132,5 +132,4 @@ This could cover a variety of **regression problems:** given a case, we could tr
 
 ## 📜 The end!
 
-This list of ideas switches customer service from "this willbe replaced in its entirety by bots" towards "automation can help human service scale." 
-
+This list of ideas switches customer service from "this will be replaced in its entirety by bots" towards "automation can help human service scale." 
