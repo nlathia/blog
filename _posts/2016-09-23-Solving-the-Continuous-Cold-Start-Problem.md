@@ -2,7 +2,7 @@
 layout: post
 title: Solving the continuous cold start problem
 description: A review of a paper by Kiseleva, Tuzhilin, Kamps, Mueller, Bernardi, Davis, Kovacek, Einarsen, Hiemstra.
-categories: [recsys, paper]
+categories: [machine-learning, paper]
 ---
 
 ### Background

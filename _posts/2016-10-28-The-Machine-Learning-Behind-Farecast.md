@@ -2,7 +2,7 @@
 layout: post
 title: The machine learning behind farecast
 description: Predicting the black box of flight prices.
-categories: [recsys, paper]
+categories: [machine-learning, paper]
 ---
 
 A number of years ago, I ran into [this research paper](http://www.isi.edu/integration/papers/etzioni03-kdd.pdf) “_To Buy or Not to Buy: Mining Airfare Data to Minimize Ticket Purchase Price_,” when I was working at UCL on a project that was researching how to help people navigate cities better using data. I had just received a large data set of Oyster card transactions from Transport for London. This paper, which looks at recommending whether to buy an airplane ticket, inspired us to apply a similar concept to help people decide what travel card to buy, with a recommender system that would learn from their travel patterns. That research resulted in [this paper](http://nlathia.github.io/papers/lathia_kdd2011.pdf) “_Mining Mobility Data to Minimise Travellers’ Spending on Public Transport_” and this [BBC news story](http://www.bbc.co.uk/news/uk-england-london-13389363).
