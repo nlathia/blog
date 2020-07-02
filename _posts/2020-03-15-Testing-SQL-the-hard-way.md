@@ -2,7 +2,7 @@
 layout: post
 title: Testing SQL the hard way
 description: Looking at the minutiae of discovering when analytics SQL is completely broken (the hard way).
-categories: [data, monzo]
+categories: [data-science, monzo]
 ---
 
 ### 📊 Context
