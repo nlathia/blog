@@ -2,7 +2,7 @@
 layout: post
 title: Using data to build a better help screen
 description: At Monzo, we use data to help our customers find their own answers faster. 
-categories: [monzo, data]
+categories: [monzo, data-science]
 ---
 
 Originally published on [monzo.com](https://monzo.com/blog/2018/08/01/data-help/). 
