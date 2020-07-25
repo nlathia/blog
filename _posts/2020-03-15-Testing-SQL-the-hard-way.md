@@ -5,6 +5,11 @@ description: Looking at the minutiae of discovering when analytics SQL is comple
 categories: [data-science, monzo]
 ---
 
+<meta charset="utf-8">
+<title>Redirecting to https://nlathia.github.io</title>
+<meta http-equiv="refresh" content="0; URL=http://nlathia.github.io/2020/03/Testing-SQL-the-hard-way.html">
+<link rel="canonical" href="http://nlathia.github.io/2020/03/Testing-SQL-the-hard-way.html">
+
 ### 📊 Context
 It's not uncommon for Data Science workflows to have large chunks of SQL. Maybe you have a sequence of queries that you run every day to produce dashboards, or maybe you have a bunch of queries that spit out features that you feed into machine learning algorithms. If you're a Data Scientist, you're bound to have written a `SELECT` statement at _some point_ of your day!
 

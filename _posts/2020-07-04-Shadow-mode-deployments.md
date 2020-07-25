@@ -5,6 +5,11 @@ description: This is one of the most useful tools that I know of to quickly ship
 categories: [data-science, tech-lead]
 ---
 
+<meta charset="utf-8">
+<title>Redirecting to https://nlathia.github.io</title>
+<meta http-equiv="refresh" content="0; URL=http://nlathia.github.io/2020/07/Shadow-mode-deployments.html">
+<link rel="canonical" href="http://nlathia.github.io/2020/07/Shadow-mode-deployments.html">
+
 Shipping changes to a system that makes a complex decision is rife with uncertainty. You may be adding a rule to a rule engine that already has 10s of rules, you may be changing a machine learning model that eats up 10s of features and spits out a probability, or (more likely) you may be doing a combination of both.
 
 The reason this is often difficult is because the most pressing question that comes up is no longer just "will it work?" (as in, will the system make **a** decision?) but, rather, "will it work well?" (i.e., will the system make **a good** decision?).

@@ -5,6 +5,11 @@ description: And it's not all about bots!
 categories: [machine-learning, monzo]
 ---
 
+<meta charset="utf-8">
+<title>Redirecting to https://nlathia.github.io</title>
+<meta http-equiv="refresh" content="0; URL=http://nlathia.github.io/2020/06/Customer-service-machine-learning.html">
+<link rel="canonical" href="http://nlathia.github.io/2020/06/Customer-service-machine-learning.html">
+
 For many folks, the words "customer service" do not bring to mind images of a high-tech problem space - it certainly was not the case for me. The only public discourse that I'd read about customer service and tech is about how bots were promised to replace human agents, but have mostly been disappointing - and limited to giving poor answers to simple questions. 
 
 After working closely with a bunch of customer service squads at Monzo, I've changed my perspective on this. I believe that building systems that enable and optimise customer service operations is going to become an entire industry soon - specifically, one that can be very profitable for companies that apply NLP and machine learning in their offerings to tackle the specific problems that prevent customer service functions from scaling.
