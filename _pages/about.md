@@ -4,6 +4,11 @@ title: About Me
 permalink: /about/
 ---
 
+<meta charset="utf-8">
+<title>Redirecting to https://nlathia.github.io</title>
+<meta http-equiv="refresh" content="0; URL=http://nlathia.github.io/about/">
+<link rel="canonical" href="http://nlathia.github.io/about/">
+
 👋 Hi, I'm Neal - I'm currently the Machine Learning Lead at [Monzo](https://monzo.com/) in London, where we're focusing on building machine learning systems that optimise the app and help the company scale.
 
 ✈️ Before joining Monzo, I was a Data Scientist at [Skyscanner](http://skyscanner.net/), where I built recommender and ranking systems to [improve travel information in the app](https://medium.com/@neal_lathia/five-lessons-from-building-machine-learning-systems-d703162846ad). 
