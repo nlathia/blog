@@ -5,6 +5,11 @@ description: Detecting a trivial sound in a quiet environment using deep learnin
 categories: [machine-learning]
 ---
 
+<meta charset="utf-8">
+<title>Redirecting to https://nlathia.github.io</title>
+<meta http-equiv="refresh" content="0; URL=http://nlathia.github.io/2020/04/How-to-overengineer-a-sound-classifier.html">
+<link rel="canonical" href="http://nlathia.github.io/2020/04/How-to-overengineer-a-sound-classifier.html">
+
 ### 🏡 Hack day idea
 
 I recently moved our washing machine out to the garage, which meant that I couldn't hear it beep when it was finished. I would have some "false positive" trips out there (through the drizzly British rain!) when timers went off, only to find that the thing was still going. How horrendous. 

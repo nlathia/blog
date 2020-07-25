@@ -5,6 +5,11 @@ description: I recently gave a couple of conference presentations about how we a
 categories: [opinion, monzo]
 ---
 
+<meta charset="utf-8">
+<title>Redirecting to https://nlathia.github.io</title>
+<meta http-equiv="refresh" content="0; URL=http://nlathia.github.io/2020/07/Handovers.html">
+<link rel="canonical" href="http://nlathia.github.io/2020/07/Handovers.html">
+
 Speed is not a word that is regularly associated with machine learning teams. When we talk and write about accomplishments in machine learning, there is often a focus on the problem, the algorithmic approach, and the results - but no mention of the time that it took to get there.
 
 ### Does speed matter in machine learning?

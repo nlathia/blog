@@ -4,6 +4,11 @@ title: Research
 permalink: /research/
 ---
 
+<meta charset="utf-8">
+<title>Redirecting to https://nlathia.github.io</title>
+<meta http-equiv="refresh" content="0; URL=http://nlathia.github.io/research/">
+<link rel="canonical" href="http://nlathia.github.io/research/">
+
 ### Upcoming Conferences
 
 [14th ACM Conference on Web Search and Data Mining](http://www.wsdm-conference.org/2021/), Program Committee. 2021.

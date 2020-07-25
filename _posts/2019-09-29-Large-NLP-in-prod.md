@@ -5,6 +5,11 @@ description: Here are some thoughts on the recent discussions around NLP transfo
 categories: [opinion, monzo]
 ---
 
+<meta charset="utf-8">
+<title>Redirecting to https://nlathia.github.io</title>
+<meta http-equiv="refresh" content="0; URL=http://nlathia.github.io/2019/09/Large-NLP-in-prod.html">
+<link rel="canonical" href="http://nlathia.github.io/2019/09/Large-NLP-in-prod.html">
+
 ### 💬 Background
 Over the last couple of years, there have been a ton of exciting developments in natural language processing (NLP). In case you haven't been working in this area, here's the crash course: the development of [deep pre-trained language models](http://ruder.io/nlp-imagenet/) has taken the field by storm. In particular, [transformer architectures](https://arxiv.org/abs/1706.03762) are everywhere, and were popularised by Google's release of the [**B**idirectional **E**ncoder **R**epresentations from **T**ransformers](https://arxiv.org/abs/1810.04805) (BERT) model, OpenAI's release of the [GPT(-2) models](https://openai.com/blog/better-language-models/), and other similar releases.
 

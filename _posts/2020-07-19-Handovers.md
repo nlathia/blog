@@ -5,6 +5,11 @@ description: Handovers in four steps.
 categories: [tech-lead, monzo]
 ---
 
+<meta charset="utf-8">
+<title>Redirecting to https://nlathia.github.io</title>
+<meta http-equiv="refresh" content="0; URL=http://nlathia.github.io/2020/07/Handovers.html">
+<link rel="canonical" href="http://nlathia.github.io/2020/07/Handovers.html">
+
 In a dynamic, fast-paced company, there always comes a time when you need to handover some _thing_ to someone else. That _thing_ could be a project, a system, a team, someone who reports to you, or even an entire role.
 
 In the last couple of years, I have done this several times--mostly because Monzo had grown. I started a regulatory data project because we were a lean _data_ team, and then handed it over to a new colleague who was hired for that area. I started managing some of our new Data Scientists, and then handed some them over as they moved into newly formed teams or domains. For a while, I was the Data Lead for all of Operations, until we hired someone specifically for that role. Most recently, I stepped into a role where I temporarily wore the Product Manager hat in an Engineering squad in order to ship some much-needed core systems work, and inherited and then handed over a system in within one quarter.
